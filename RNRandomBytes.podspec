@@ -3,7 +3,7 @@ pjson = JSON.parse(File.read('package.json'))
 
 Pod::Spec.new do |s|
 
-  s.name            = pjson["name"]
+  s.name            = "RNRandomBytes"
   s.version         = pjson["version"]
   s.homepage        = "https://github.com/mvayngrib/react-native-randombytes"
   s.summary         = pjson["description"]
